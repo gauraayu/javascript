@@ -7,5 +7,8 @@
 function dom() {
     console.log("DOM");
     // document.getElementById("id") // it will return the first element with the given id
-    alert("hello");
+   alert("hello");
 }
+dom()
+
+
