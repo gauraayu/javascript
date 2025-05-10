@@ -6,3 +6,7 @@ while (first_digit >= 10) {
     first_digit = Math.floor(first_digit / 10);
 }   
 console.log(first_digit+last_digit); // 2
+
+
+
+
