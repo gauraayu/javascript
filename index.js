@@ -37,3 +37,15 @@ function ex1(){
             
             }
             ex3()
+            // parse int parse float number
+            // parse int= whole no
+            // parse float= decimal no
+            // number= no
+            // string= string
+
+
+
+
+//             <!-- bom= interaction wd the browser window (browser object model) -->
+//  <!--alert prompt confirm  -->
+//  <!-- alert only show msg wd ok-->
