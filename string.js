@@ -47,3 +47,6 @@ console.log(i);
 let j="Hello World!";
 let k=j.replace("World","hehehe");
 console.log(k);
+// ----------charAt---------
+let l="Hello World!";
+let

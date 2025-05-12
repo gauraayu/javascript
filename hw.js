@@ -42,13 +42,13 @@
 // }
 
 // ques 5
-// var num= prompt("enter a no.")
-// if(num%2==0){
-//   alert("num is even")
-// }
-// else{
-//   alert("odd")
-// }
+var num= prompt("enter a no.")
+if(num%2==0){
+  alert("num is even")
+}
+else{
+  alert("odd")
+}
 
 // ques 8
 // var number = 1;
