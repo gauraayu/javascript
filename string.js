@@ -44,9 +44,39 @@ let h="Hello World!";
 let i=h.substring(1,6);
 console.log(i);
 // ----------replace---------   
-let j="Hello World!";
+let j="Hello World! World";
 let k=j.replace("World","hehehe");
 console.log(k);
+// -------------to globally replace all the words without using replace all
+console.log(j.replace(/World/g,"hehehe"));
+// -------------case insensitive replace all
+console.log(j.replace(/world/gi,"hehehe"));
+//replace method only replaces the first occurrence of the string it dosnt replace all the occurrences
+// ----------replaceAll---------
+let l1="Hello World! World";
+let m1=l1.replaceAll("World","hehehe");
+console.log(m1);
 // ----------charAt---------
 let l="Hello World!";
-let
+let m=l.charAt(4);
+console.log(m);
+// ----------charCodeAt---------
+// //GIVES ascii VALUE
+let n1="Hello World!";
+let o1=n1.charCodeAt(0);
+console.log(o1);
+// ----------indexOf---------
+let n="Hello World!";   
+let o=n.indexOf("W");
+console.log(o);
+// ----------lastIndexOf---------
+let p="Hello World!";
+let q=p.lastIndexOf("W");
+console.log(q);
+// let fruits=["Banana","Orange","Apple","Mango"];
+
+// ----------split---------
+let ar="this is a string"   
+console.log(ar.split(" "));
+let ar1="this-is-a s-tring"
+console.log(ar1.split("-"));
