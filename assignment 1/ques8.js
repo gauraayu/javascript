@@ -11,3 +11,4 @@ var n="madam";
     else{
         console.log("Not Palindrome");
     }
+    //console.log("The original string is: " + original);

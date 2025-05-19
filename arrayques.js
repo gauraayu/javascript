@@ -36,6 +36,7 @@ let revarr=[];
 for(let i=arr3.length-1;i>=0;i--){
     revarr.push(arr3[i]);
 }
+
 console.log(revarr);
 // QUES 5---------------------------------------
 // check if element exist in array
