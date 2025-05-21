@@ -1,10 +1,14 @@
-let arr5=[1,2,3];
-let arr6=[4,5,6];
-let mergedarr=[];
-for(let i=0;i<arr5.length;i++){
-    mergedarr.push(arr5[i]);
-}
-console.log(mergedarr);
-for(let i=0;i<arr6.length;i++){
-    mergedarr.push(arr6[i]);
-}
+ // to check if number is positive or negative
+    let check=(num)=>{
+        if(num>0){
+            return "positive";
+        }
+        else if(num<0){
+            return "negative";
+        }
+        else{
+            return "zero";
+        }
+    }
+    let value1=check(5);
+    console.log("your number is "+value1);
