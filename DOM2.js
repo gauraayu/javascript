@@ -6,11 +6,27 @@ let callme=()=>{
     // document.querySelector(".class")//to take specific class
     let mytag=document.querySelector("#text")
     // mytag.innerHTML="hello world"//to change the content of the html pageinnerhtml supports html tags also
-    mytag.innerText="hello world"//to change the content of the html page
+  //to change the content of the html page
 
+ let mtag=document.querySelector(".text")
+    mtag.innerHTML="hello heheheheh......"
+      mytag.innerText="hello world"
+      mytag.style.backgroundColor="red"
+      mytag.style.color="white"
 
 }
 let btn2=()=>{
-    let mytag=document.querySelector(".text")
-    mytag.innerHTML="hello heheheheh......"
+   
+}
+let red=()=>{
+  let name=document.querySelector("#color")
+  name.style.color="red"
+}
+let blue=()=>{
+  let name=document.querySelector("#color")
+  name.style.color="blue"
+}
+let green=()=>{
+  let name=document.querySelector("#color")
+  name.style.color="green"
 }
