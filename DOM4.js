@@ -12,7 +12,7 @@ show=()=>{
     let line=document.querySelector(".para");
     // to display and then after 1 click hide the element
 
-
+// hiding the contens
     if(line.style.display=="none"){
         line.style.display==="block"
     }
