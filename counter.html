@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box{
+        width: 500px;
+    height:500px;
+    background-color: black;
+    border: solid 2px black;
+    }
+
+</style>
+<body>
+    <p id="counter">0</p>
+    <!-- event listeners -->
+     <!-- 1= onclick -->
+      <!-- 2= onmouseeneter is used to hover effect in css -->
+       <!-- 3= ondblclick doubleclick -->
+        <!-- 4=onmouseleave -->
+    <button onmouseenter="increment()">increment</button>
+    <!-- <button onmouseenter="decrement()">decrement</button> -->
+    
+    <!-- <button ondblclick="decrement()">decrement</button> -->
+    
+    <button onmouseleave="decrement()">decrement</button>
+
+
+
+    <div id="box" onmouseenter="change1()" onmouseleave="change2()"></div>
+    <script src="/counter.js"></script>
+</body>
+</html>
