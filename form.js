@@ -52,3 +52,13 @@ else if(inpnum.length!=10){
     errnum.innerHTML="Number should be 10 digits"
     errnum.style.color="red"
 }
+// else if(!())
+else if(pass==cpass){
+    let passbox=document.querySelector("#pass")
+    let cpassbox=document.querySelector("#cpass")
+    passbox.style.border="1px solid red"
+    cpassbox.style.border="1px solid red"
+    errcpass.innerHTML="Password and Confirm Password should be same"
+   errcpass.style.color="red"
+   return false }
+   
