@@ -11,7 +11,7 @@ let formvalidate=()=>{
     let errpass=document.querySelector("#errpass")
     let errcpass=document.querySelector("#errcpass")
     // 
-    // ans
+    
 
 if(inpname==""){
     let namebox=document.querySelector("#name")
