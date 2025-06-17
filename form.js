@@ -10,7 +10,6 @@ let formvalidate=()=>{
     let erremail=document.querySelector("#erremail")
     let errpass=document.querySelector("#errpass")
     let errcpass=document.querySelector("#errcpass")
-    // 
     
 
 if(inpname==""){
