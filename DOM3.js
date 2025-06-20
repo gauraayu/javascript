@@ -6,7 +6,6 @@ let box1=()=>{
   name.style.backgroundImage="url('https://rukminim2.flixcart.com/image/1200/1200/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg')"
     name.style.backgroundSize="cover"
 }
-// 
 let box2=()=>{
  let name=document.querySelector(".main")
   // name.style.color="blue"
